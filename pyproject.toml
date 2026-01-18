@@ -1,0 +1,27 @@
+[project]
+name = "portfolio-rag"
+version = "0.1.0"
+description = "Ask Himanshu"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "groq==0.9.0",
+    "scikit-learn>=1.3.0",  
+    "langchain==0.1.0",
+    "langchain-community==0.0.10",
+    "numpy==1.24.3",
+    "pandas==2.0.3",
+    "pdfplumber==0.10.3",
+    "pypdf2==3.0.1",
+    "python-docx==1.1.0",
+    "python-dotenv==1.0.0",
+    "qdrant-client==1.7.0",
+    "streamlit==1.28.0",
+    "tiktoken==0.5.2",
+    "requests>=2.31.0",
+    "ipykernel>=7.1.0",
+    "httpx==0.24.1",
+    "sentence-transformers==2.2.2",
+    "huggingface-hub>=0.20.0",
+]
+

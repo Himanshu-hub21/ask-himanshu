@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets & Config
+.env
+*.env
+secrets.toml
+
+# Data Files (local only)
+data/raw/
+data/processed/
+*.pdf
+*.pkl
+*.json
+
+# Documentation (optional - keep if you want)
+complete_guide.MD
+HIMANSHU*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
