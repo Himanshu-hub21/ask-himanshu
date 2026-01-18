@@ -51,7 +51,7 @@ class PrivacyFilter:
         
         elif 'address' in query_lower or 'location' in query_lower:
             return (
-                f"I'm currently based in Ahilyanagar, Maharashtra, India. "
+                f"I'm currently based in Pune, Maharashtra, India. "
                 f"For detailed discussions, please reach out via email: {self.owner_email}"
             )
         
